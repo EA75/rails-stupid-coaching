@@ -1,5 +1,12 @@
-<h1> Votre question: </h1>
-<h2> <%= @question %> </h2>
-
-
-<p>The answer is <%= @answer %></p>
+<div class = "container">
+ <h1>Stupid coaching </h1>
+  <div class = "quest">
+    <p> <%= @question %> </p>
+    <p><i>--You</i></p>
+    </div>
+    <div class = "answ">
+      <p><strong><%= @answer %></strong></p>
+      <p><i>--Your coach</i></p>
+    </div>
+  <%= link_to "Ask a new question", ask_path %>
+</div>
