@@ -1,6 +1,5 @@
 class QuestionsController < ApplicationController
   def ask
-    @question = 'question'
   end
 
   def answer
